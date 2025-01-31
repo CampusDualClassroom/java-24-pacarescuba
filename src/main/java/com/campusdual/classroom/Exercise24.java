@@ -1,6 +1,5 @@
 package com.campusdual.classroom;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -17,6 +16,6 @@ public class Exercise24 {
   }
 
   public static void main(String[] args) {
-    printAndEmptyQueue(new LinkedList<>(Arrays.asList("Smith", "Montessori", "Peralta", "House")));
+    printAndEmptyQueue(createQueue());
   }
 }
